@@ -74,7 +74,7 @@ def anjay_alok():
     print (" \033[1;36m╚═════════════════════════════════════════════╝")
     print (" \033[1;30m<════════════[ \033[1;33m• INFORMATION \033[1;33m• \033[1;30m]══════════════>")
     print ("  \033[1;36m➤ \033[1;37mStatus Code \033[1;33m: \033[1;37mOPEN SOURCE \033[1;37m/ NOT ENCRYPTED")
-    print ("  \033[1;36m➤ \033[1;37mApi Source \033[1;33m: \033[1;37mDuniaGames.co.id","\033[1;33m: \033[1;37mHalodoc.com"
+    print ("  \033[1;36m➤ \033[1;37mApi Source \033[1;33m: \033[1;37mDuniaGames.co.id",
     print ("  \033[1;36m➤ \033[1;37minquiryId \033[1;33m: \033[1;37m"+inquiryId)
     print (" \033[1;30m<═════════════════════════════════════════════>")
     print ("          \033[1;30m --=[ \033[1;33m• \033[1;37mTarget Phone \033[1;30m\033[1;33m• \033[1;30m]=--")
@@ -95,7 +95,7 @@ mr_f={
 'sec-fetch-site':'same-site',
 'sec-fetch-mode':'cors',
 'sec-fetch-dest':'empty',
-'referer':'https://duniagames.co.id/','
+'referer':'https://duniagames.co.id/',
 'accept-encoding':'gzip, deflate, br',
 'accept-language':'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'
 }
