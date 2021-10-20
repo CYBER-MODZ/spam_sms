@@ -149,7 +149,7 @@ def countdownTimer(start_minute, start_second):
 
 if __name__ == '__main__':
     for i in range(int(jumlah)):
-        darko=requests.post('https://api.duniagames.co.id/api/transaction/v1/top-up/transaction/req-otp/',('https://www.tokocash.com/oauth/otp)',headers=mr_f,json=dark).text
+        darko=requests.post('https://api.duniagames.co.id/api/transaction/v1/top-up/transaction/req-otp/',headers=mr_f,json=dark).text
         print (f'  \033[31m➤ \033[1;37mTerkirim                            ')
         countdownTimer(00, 60)
         subs_mr_dark += 1
