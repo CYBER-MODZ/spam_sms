@@ -99,36 +99,6 @@ mr_f={
 'accept-encoding':'gzip, deflate, br',
 'accept-language':'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'
 }
-'Host':'www.tokocash.com/oauth/otp',
-'content-length':'50',
-'accept':'application/json, text/plain, */*',
-'sec-ch-ua-mobile':'?0',
-'save-data':'on',
-'user-agent':'Mozilla/5.0 (Linux; Android 9; SM-T825Y) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36',
-'content-type':'application/json',
-'origin':'https://www.tokocaash.com',
-'sec-fetch-site':'same-site',
-'sec-fetch-mode':'cors',
-'sec-fetch-dest':'empty',
-'referer':'https://tokocash.com/',
-'accept-encoding':'gzip, deflate, br',
-'accept-language':'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'
-}
-'Host':'www.halodoc.com/oauth/otp,
-'content-length':'50',
-'accept':'application/json, text/plain, */*',
-'sec-ch-ua-mobile':'?0',
-'save-data':'on',
-'user-agent':'Mozilla/5.0 (Linux; Android 9; SM-T825Y) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36',
-'content-type':'application/json',
-'origin':'https://www.halodoc.com',
-'sec-fetch-site':'same-site',
-'sec-fetch-mode':'cors',
-'sec-fetch-dest':'empty',
-'referer':'https://halodoc.com/',
-'accept-encoding':'gzip, deflate, br',
-'accept-language':'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'
-}
 subs_mr_dark = 1
 # variable dark bisa di ganti sesuka kalian asalkan di bagian darko json= di ganti menjadi nama variable yang sama
 # jika sms tidak masuk ganti inqueryId dengan value yang baru
