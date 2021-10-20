@@ -108,15 +108,6 @@ dark={
 "phoneNumber":mr_dark1,
 "inquiryId":inquiryId
 }
-# timer untuk per 1 spam adalah 60 second
-def countdownTimer(start_minute, start_second):
-    total_second = start_minute * 00 + start_second
-    while total_second:
-        mins, secs = divmod(total_second, 00)
-        print(f'  \033[1;33m➤ \033[1;37mwaiting (\033[1;32m{secs:02d}\033[1;37m)', end='\r')
-        time.sleep(1)
-        total_second -= 1
-
 
 if __name__ == '__main__':
     for i in range(int(jumlah)):
